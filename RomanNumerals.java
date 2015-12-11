@@ -58,12 +58,10 @@ class RomanNumerals
 			
 			else
 			{
-				int flag = 0;
 				for(int p = 0; p < list[i] / 5; p++)
 				{
 					int val = (i == 0) ? 5: (i == 1) ? 50 : (i == 2) ? 500 : 0;
 					temp = new StringBuffer( exceptions.get(val) + temp);
-					flag = 1;  
 				}
 				
 				for(int q = 0; q < list[i] % 5; q++)
