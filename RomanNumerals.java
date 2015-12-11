@@ -66,7 +66,7 @@ class RomanNumerals
 				
 				for(int q = 0; q < list[i] % 5; q++)
 				{
-						temp = new StringBuffer("" + temp + symbols[i]);	
+					temp = new StringBuffer("" + temp + symbols[i]);	
 				}
 			}
 			ans = new StringBuffer(temp + "" + ans);
